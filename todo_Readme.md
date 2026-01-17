@@ -1,37 +1,33 @@
-# Python To-Do List Application
+To-Do List Manager ✅
+What it does
+Helps you keep track of stuff you need to do. I made this because I kept forgetting things and it actually helped!
+Features
 
-This is a command-line based To-Do List application developed using Python.
-Python concepts such as file handling, user input, and data structures.
+Add tasks to your list
+View all your tasks
+Mark tasks as done (shows a checkmark ✓)
+Delete tasks you don't need anymore
+Simple menu that's easy to use
 
----
+How to run it
+bashpython todo_list.py
+Pick what you want to do from the menu and go from there.
+Example
+           TO-DO LIST MANAGER
+==================================================
+1. View all tasks
+2. Add a new task
+3. Mark task as complete
+4. Delete a task
+5. Exit
 
-## Features
+What would you like to do? 2
+What task do you want to add? Buy groceries
+Added: 'Buy groceries'
 
-- Add, view, and delete tasks
-- Mark tasks as completed
-- Assign priority levels (High, Medium, Low)
-- Optional due dates for tasks
-- View detailed information for individual tasks
-- Display task statistics
-- Persistent storage using JSON
-- Manual backup option for task data
-
----
-
-## Technologies Used
-
-- Python 3
-- JSON for data storage
-- Standard Python libraries (`os`, `datetime`, `shutil`)
-
----
-
-## How to Run
-
-1. Ensure Python 3 is installed
-2. Clone the repository or download the files
-3. Open a terminal in the project directory
-4. Run:
-
-```bash
-python todo.py
+Your Tasks:
+--------------------------------------------------
+1. [ ] Buy groceries
+2. [ ] Finish homework
+3. [✓] Call mom
+--------------------------------------------------
