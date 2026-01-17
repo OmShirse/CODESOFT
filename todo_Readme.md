@@ -1,4 +1,4 @@
-To-Do List Manager ✅
+# To-Do List Manager ✅
 What it does
 Helps you keep track of stuff you need to do. I made this because I kept forgetting things and it actually helped!
 Features
